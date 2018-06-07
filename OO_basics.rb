@@ -1,4 +1,5 @@
 class Book
+ 
   def initalize(title, author, page_content, genre)
     @title = title
     @author = author
@@ -18,3 +19,17 @@ class Book
     @author
   end
   
+  def author=(author)
+   @author
+ end
+ 
+ def page_content
+   @page_content
+ end
+ 
+ def page_content=(page_content)
+   @page_content
+ end
+ 
+ def genre=(genre)
+   @genre=
