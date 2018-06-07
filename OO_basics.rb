@@ -41,7 +41,7 @@ class Book
 end
 
 book1 = Book.new("catching fire")
-book1.author
+book.author
  
  
  
