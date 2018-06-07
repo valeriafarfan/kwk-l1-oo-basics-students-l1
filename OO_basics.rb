@@ -20,7 +20,7 @@ class Book
   end
   
   def author=(author)
-   @author
+   @author = author
  end
  
  def page_content
@@ -28,8 +28,15 @@ class Book
  end
  
  def page_content=(page_content)
-   @page_content
+   @page_content = page_content
  end
  
- def genre=(genre)
-   @genre=
+ def genre 
+   @genre
+   end
+   
+   def genre=(genre)
+   @genre = genre
+ end
+ 
+ 
